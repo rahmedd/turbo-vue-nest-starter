@@ -1,16 +1,18 @@
 {
   "extends": "tsconfig/nest.json",
-
   "compilerOptions": {
     "outDir": "./dist",
     "baseUrl": ".",
-
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ]
     }
   },
-
   "include": [
     "./**/*.ts"
+  ],
+  "exclude": [
+    "eslint.config.mjs",
   ]
 }
