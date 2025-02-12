@@ -1,13 +1,13 @@
 {
   "extends": "tsconfig/vite.json",
-
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ]
     }
   },
-
   "include": [
     "./src/components.d.ts",
     "**/*.js",
@@ -16,5 +16,8 @@
     "**/*.tsx",
     "**/*.vue",
     "**/*.json"
+  ],
+  "exclude": [
+    "eslint.config.mjs",
   ]
 }
