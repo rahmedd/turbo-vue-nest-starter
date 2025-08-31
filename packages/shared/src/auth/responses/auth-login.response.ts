@@ -1,7 +1,7 @@
-import { UserProfileResponse } from '../../users';
+import { UserProfileResponse } from '../../users'
 
 export interface AuthLoginResponse {
-  token?: string;
-  expirationTime: number;
-  account: UserProfileResponse;
+	token?: string
+	expirationTime: number
+	account: UserProfileResponse
 }

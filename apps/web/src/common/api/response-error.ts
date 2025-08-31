@@ -1,5 +1,5 @@
-import { AxiosError } from 'axios';
+import { AxiosError } from 'axios'
 
 export interface ResponseError extends AxiosError {
-  isNetworkError: boolean;
+	isNetworkError: boolean
 }

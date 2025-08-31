@@ -1,11 +1,11 @@
-import { z } from 'zod';
-import { UseSchema } from '../../common';
+import { z } from 'zod'
+import { UseSchema } from '../../common'
 
 export const userUpdateSelfSchema = z.object({
-  firstName: z.string().trim().nonempty(),
-  lastName: z.string().trim().nonempty(),
-  position: z.string().trim().nullable(),
-});
+	firstName: z.string().trim().nonempty(),
+	lastName: z.string().trim().nonempty(),
+	position: z.string().trim().nullable(),
+})
 
 @UseSchema(userUpdateSelfSchema)
 export class UserUpdateSelfDto {}
