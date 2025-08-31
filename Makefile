@@ -116,7 +116,7 @@ clean:
 ########################################################################################
 ####                                 NPM SCRIPTS                                    ####
 ########################################################################################
-.PHONY: dev-api dev-web dev-web-electron dev-nuxt dev-mobile build-api build-web build-web-electron build-nuxt build-mobile start-api start-web start-nuxt mobile-android mobile-ios
+.PHONY: dev-api dev-web dev-web-electron build-api build-web build-web-electron start-api start-web
 
 dev-api:
 	@pnpm run dev-api
@@ -127,12 +127,6 @@ dev-web:
 dev-web-electron:
 	@pnpm run dev-web-electron
 
-dev-nuxt:
-	@pnpm run dev-nuxt
-
-dev-mobile:
-	@pnpm run dev-mobile
-
 build-api:
 	@pnpm run build-api
 
@@ -142,23 +136,8 @@ build-web:
 build-web-electron:
 	@pnpm run build-web-electron
 
-build-nuxt:
-	@pnpm run build-nuxt
-
-build-mobile:
-	@pnpm run build-mobile
-
 start-api:
 	@pnpm run start-api
 
 start-web:
 	@pnpm run start-web
-
-start-nuxt:
-	@pnpm run start-nuxt
-
-mobile-android:
-	@pnpm run mobile-android
-
-mobile-ios:
-	@pnpm run mobile-ios

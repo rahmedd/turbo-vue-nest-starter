@@ -165,8 +165,6 @@ DATABASE_ENABLE_SYNC=true
 * `dev-api` - run API project with hot reload
 * `dev-web` - run WEB project with hot reload
 * `dev-web-electron` - run WEB project in electron application with hot reload
-* `dev-nuxt` - run nuxt application with hot reload
-* `dev-mobile` - run mobile application with hot reload
 
 #### BUILD
 
@@ -174,20 +172,12 @@ DATABASE_ENABLE_SYNC=true
 * `build-api` - build API project application
 * `build-web` - build WEB project application
 * `build-web-electron` - build electron application with web project
-* `build-nuxt` - build nuxt application
-* `build-mobile` - build mobile application
 
 #### RUNNING
 
 * `start` - start all applications
 * `start-api` - start API project application
 * `start-web` - boot up a local static web server that serves the files from dist
-* `start-nuxt` - start nuxt application
-
-#### MOBILE
-
-* `mobile-android` - build mobile application and open in Android Studio
-* `mobile-ios` - build mobile application and open in Xcode
 
 #### COMMON
 
