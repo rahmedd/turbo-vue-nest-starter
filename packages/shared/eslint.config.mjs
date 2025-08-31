@@ -1,2 +1,2 @@
-import config from 'config/eslint-preset.mjs';
-export default config;
+import config from 'config/eslint-preset.mjs'
+export default config
